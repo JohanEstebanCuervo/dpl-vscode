@@ -1,0 +1,25 @@
+{
+  "name": "DPL",
+  "displayName": "dpl",
+  "description": "Digsilen Programm Lenguaje",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "DPL",
+      "aliases": ["DIgSILENT Programming Language", "DPL"],
+      "extensions": [".DPL",".dpl",".ComDpl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "DPL",
+      "scopeName": "source.DPL",
+      "path": "./syntaxes/dpl.tmLanguage"
+    }]
+  }
+}
